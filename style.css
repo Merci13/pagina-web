@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+head {
     text-align: center;
 }
 
@@ -11,7 +11,7 @@ input[name="slider-select-element"] {
 }
 
 #slider-arrows {
-    margin: -10% auto 0 auto;
+    margin: -5% auto 0 auto;
     width: 80%;
 }
 
@@ -28,32 +28,12 @@ input[name="slider-select-element"] {
     width: 80%;
 }
 
-.element-uno,
 .element-dos,
 .element-tres,
 .element-cuatro,
 .element-cinco {
-    min-height: 100px;
-    max-height: 100%;
-    width: 100%;
-}
-
-.element-uno {
-    background-color:red }
-
-.element-dos {
-    background-color: green;
-}
-
-.element-tres {
-    background-color: blue  ;
-}
-.element-cuatro {
-	background-color: purple;
-	 }
-
-.element-cinco {
-	background-color: brown;
+    max-height: 10px;
+    width: 10px;
 }
 .slider-element {
     float: left;
@@ -73,7 +53,7 @@ input[name="slider-select-element"] {
 #element2:checked ~ #slider-arrows label:nth-child(1),
 #element3:checked ~ #slider-arrows label:nth-child(2),
 #element4:checked ~ #slider-arrows label:nth-child(3),
-#element5:checked ~ #slider-arrows label:nth-child(4),
+#element5:checked ~ #slider-arrows label:nth-child(4)
  {
     display: block;
     float: left;
@@ -83,7 +63,7 @@ input[name="slider-select-element"] {
 #element2:checked ~ #slider-arrows label:nth-child(3):before,
 #element3:checked ~ #slider-arrows label:nth-child(4):before,
 #element4:checked ~ #slider-arrows label:nth-child(5):before,
-#element5:checked ~ #slider-arrows label:nth-child(1):before,
+#element5:checked ~ #slider-arrows label:nth-child(1):before
  {
     color: black;
     content: "\f054";
@@ -99,7 +79,7 @@ input[name="slider-select-element"] {
 #element2:checked ~ #slider-arrows label:nth-child(1):before,
 #element3:checked ~ #slider-arrows label:nth-child(2):before,
 #element4:checked ~ #slider-arrows label:nth-child(3):before,
-#element5:checked ~ #slider-arrows label:nth-child(4):before,
+#element5:checked ~ #slider-arrows label:nth-child(4):before
  {
     color: black;
     content: "\f053";
@@ -145,4 +125,76 @@ input[name="slider-select-element"] {
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
+}
+#title{
+	margin-left: 50% auto;
+    width: 80%;
+}
+#imagen{
+	    max-width: 100%;
+    height: auto;
+
+}
+#menu{
+	margin: 0;
+	font-family: "sans-serif";
+	font-size: 14px;
+}
+
+#menu-wrapper, li ul{
+	padding: 0;
+	list-style: none;
+
+}
+#hmenu>li{
+	display: inline-block;
+}
+#hmenu> li> a{
+	display: block;
+	padding: 10px 5px;
+	width: 90px;
+}
+li ul{
+	position: absolute;
+	display: none;
+}
+.sub-menu a{
+	display: block;
+	padding: 10px 5px;
+	width: 130px;
+
+
+}
+
+
+
+li:hover ul{
+	display: block;
+} 
+#menu-wrapper, li ul{
+	background:#333;
+}
+#hmenu {
+	width: 412px;
+	margin: 0 auto;
+}
+#hmenu a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#hmenu li:hover{
+	background: #8A0829;
+	text-shadow: :0 0 2px #000;
+}
+#logos{
+	display: flex;
+	flex-direction:isolation: column;
+	
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.logo{
+	
+	
 }
