@@ -246,3 +246,10 @@ fieldset{
         -o-transform : scale(1.5);        /* Opera */
 
     }
+   #Audia1{
+    	display: flex;
+    	justify-content: center;
+    	flex-wrap: wrap;
+    	align-content: row;
+    }
+    
