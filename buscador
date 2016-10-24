@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrAutos</title>
+	<meta charset="utf-8">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+	<body>
+		<div class="title"><a href="crautos.html"><img src="./Imagenes/CrautosLogo.png"> </a></div>
+	
+	</div>
+	<div><br><br><br><br></div>
+	<div id="menu">
+		<div id="menu-wrapper" class="menu">
+			<ul id="hmenu">
+				<li><a href="crautos.html">Inicio</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="sub-menu">
+						<li><a href="buscar.html">Buscar</a></li>
+					
+							
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Marcas</a>
+					<ul class="sub-menu">
+						<li><a href="">Audi</a></li>
+						<li><a href="">Chevrolet</a></li>
+						<li><a href="">Dodge</a></li>
+						<li><a href="">KIA</a></li>
+						<li><a href="">Mazda</a></li>
+						<li><a href="">Mitsubishi</a></li>
+						<li><a href="">Nissan</a></li>
+						<li><a href="">Toyota</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">Contactos</a>
+					<ul class="sub-menu">
+						<li><a href="#">0000000000</a></li>
+						<li><a href="#">1111111111</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+
+		</div>
+	</div>	
+	<div></div>
+		<div id="buscador">
+			<label>Marca</label>
+			<textarea> nissan</textarea>
+			<label>Modelo</label>
+			<label>Transmisión</label>
+			<label>Precio</label>
+		</div>
+
+
+
+	<div></div>
+	</body>
+</html>
