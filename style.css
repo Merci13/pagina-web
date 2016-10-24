@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
 }
 
@@ -139,6 +139,7 @@ input[name="slider-select-element"] {
 	margin: 0;
 	font-family: "sans-serif";
 	font-size: 14px;
+	
 }
 
 #menu-wrapper, li ul{
@@ -189,12 +190,25 @@ li:hover ul{
 }
 #logos{
 	display: flex;
-	flex-direction:isolation: column;
+	flex-direction:row;
 	
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap:wrap;
 }
-.logo{
+
+body{
+	display: flex;
+	flex-direction: column;
+	background-color: #146B30;
+}
+.buscador{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 	
-	
+}
+.buscador label{
+	margin: 0;
+	 font-family: Verdana, serif; font-size:14pt; font-style:italic; ;
+	font-size: 14px;
 }
