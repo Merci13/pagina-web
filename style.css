@@ -212,3 +212,37 @@ body{
 	 font-family: Verdana, serif; font-size:14pt; font-style:italic; ;
 	font-size: 14px;
 }
+#buscador{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+
+fieldset{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#Audi{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	flex-direction: row; 
+	flex-wrap: wrap;
+}
+.zoom{
+        
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .zoom:hover{
+        
+        transform : scale(1.5);
+        -moz-transform : scale(1.5);      /* Firefox */
+        -webkit-transform : scale(1.5);   /* Chrome - Safari */
+        -o-transform : scale(1.5);        /* Opera */
+
+    }
